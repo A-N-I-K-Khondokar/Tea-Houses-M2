@@ -1,17 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea Houses</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
     <!-- tailwind cdn -->
-
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- banner-section-starts-here -->
+    <div
+      class="banner mx-3 md:mx-auto max-w-7xl flex flex-col md:flex-row gap-4 my-16"
+    >
+      <div class="banner-left text-center md:text-start">
+        <h1
+          class="manrope-font font-extrabold text-center md:text-start text-5xl md:text-7xl leading-snug"
+        >
+          It's good <br />
+          tea time at The <br />
+          Tea House
+        </h1>
+        <p class="my-7 text-center md:text-start">
+          Tea and Botanical Solutions Supplier Give Optimum <br />
+          Satisfaction To Your Taste Buds.
+        </p>
+        <button
+          class="bg-linear-to-l from-[#FF0000] to-[#FF8938] h-16 w-48 text-white text-xl font-bold rounded-xl"
+        >
+          Explore More
+          <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span>
+        </button>
+      </div>
 
+      <div class="banner-right relative top-12 object-cover">
+        <img src="./images/banner.png" alt="" />
+        <div
+          class="banner-bottom shadow-md bg-white rounded-md w-60 py-4 flex gap-3 justify-center items-center absolute bottom-8 left-22"
+        >
+          <span><i class="fa-regular fa-star text-3xl"></i></span>
+          <div>
+            <p class="text-xl font-extrabold">5.00</p>
+            <p class="font-semibold text-[#777777]">Trust Pilot Ratting</p>
+          </div>
+        </div>
+      </div>
+    </div>
     
-</head>
-<body>
-    
-</body>
+  </body>
 </html>
